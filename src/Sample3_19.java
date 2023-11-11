@@ -12,7 +12,7 @@ public class Sample3_19 {
         //String str2 = br.readLine();
         //char ch = str2.charAt(0);
 
-        char ch = (char)br.read();
+        char ch = br.readLine().charAt(0);
 
         int num = str1.indexOf(ch);
         if(num != -1){
